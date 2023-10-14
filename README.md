@@ -24,12 +24,5 @@ pip3 install translatifyplux
 
 
 **Usage**:
+
 See Example.py
-
-Example Usage
-To see a practical example of how TAS can be used, take a look at Example.py. This file provides a step-by-step guide on making API requests and using the Python package to perform translations.
-
-
-
-
-
