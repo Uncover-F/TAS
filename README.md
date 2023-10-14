@@ -11,3 +11,9 @@ A CURL Request can be utilised to translate.
 Refer to Translate.py for further details on how to use the API. 
 
 
+You can also install the package using:
+pip3 install translatifyplux
+or 
+pip install translatifyplux
+
+Example usage for Translation is in Example.py
