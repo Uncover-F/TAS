@@ -26,3 +26,8 @@ pip3 install translatifyplux
 **Usage**:
 
 See Example.py
+
+
+## Other
+
+Please Star this Repo if you found this useful!
