@@ -29,5 +29,5 @@ See Example.py
 
 
 ## Other
-
+Help is avalable in "Issues"
 Please Star this Repo if you found this useful!
