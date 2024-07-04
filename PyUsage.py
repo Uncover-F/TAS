@@ -1,7 +1,7 @@
 import requests
 
 # Define the Cloudflare Worker endpoint URL
-worker_url = 'https://your-worker-subdomain.your-worker-name.workers.dev'
+worker_url = 'https://665.mtis.workers.dev/translate?'
 
 # Parameters for translation (customize as needed)
 params = {
