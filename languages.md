@@ -1,6 +1,7 @@
 # Languages Support By This Repo
 ## And Their Respective Language Codes
 
+```
 Afrikaans: af
 Albanian: sq
 Amharic: am
@@ -98,3 +99,4 @@ Xhosa: xh
 Yiddish: yi
 Yoruba: yo
 Zulu: zu
+```
