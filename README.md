@@ -37,8 +37,12 @@ To use other languages like C or C++ please see:
 curl -X GET 'https://655.mtis.workers.dev/translate?text=Tell%20me%20a%20joke%20about%20Cloudflare&source_lang=en&target_lang=fr'
 ```
 
-# Contact and Details:
+# Other:
+## Contact:
 Uncover-F Discord Username: 0013500
+## Coming Soon:
+- NodeJS Library (Beta)
+- PIP Library (In Development)
 
 Please star this repository is you found it useful. 
 ## Goal:
