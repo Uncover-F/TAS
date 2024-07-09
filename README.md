@@ -19,7 +19,7 @@ This AI-based translation is 100% free, with no set limits. Our API is available
 
 # Usage:
 
-For a list of supported languages please see [Languages.md](#)
+For a list of supported languages please see [languages.md](#)
 
 ## Python Usage
 
