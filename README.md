@@ -37,12 +37,12 @@ To use other languages like C or C++ please see:
 curl -X GET 'https://655.mtis.workers.dev/translate?text=Tell%20me%20a%20joke%20about%20Cloudflare&source_lang=en&target_lang=fr'
 ```
 
-# Other:
-Discord Username: 0013500
+# Contact and Details:
+Uncover-F Discord Username: 0013500
 
 Please star this repository is you found it useful. 
 ## Goal:
-If this repository gets more than 100 stars, I may make 1 of the following (100% free):
+If this repository gets more than 100 stars, we may make 1 of the following (100% free):
 - Free Speech to Text API ```@cf/openai/whisper```
 - Free Image Classification API ```@cf/microsoft/resnet-50```
 - Free Text Classification API  ```@cf/huggingface/distilbert-sst-2-int8```
