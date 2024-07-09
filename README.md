@@ -1,6 +1,16 @@
 # TAS Translation API
 
-### Please take a moment to read through the License before you use the TAS Translation API.
+## IMPORTANT: LICENSE AGREEMENT
+### Important Notice
+Please read the LICENSE file carefully before using the TAS Translation API. By using this API, you acknowledge that you have read, understood, and agree to be bound by the terms and conditions of the MIT License.
+
+### YOU ASSUME ALL RISK
+
+By using this API, you release and hold harmless the authors and contributors from any claims, damages, or liabilities arising from your use of the API. You also acknowledge that you have no claim against the authors or contributors for any damages or losses arising from your use of the API.
+
+### USE AT YOUR OWN RISK
+
+By accessing or using the TAS Translation API, you acknowledge that you have read and agree to be bound by the terms of the MIT License.
 
 ---
 
