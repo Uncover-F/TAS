@@ -20,18 +20,26 @@ This AI-based translation is 100% free, with no set limits. Our API is available
 # Usage:
 
 For a list of supported languages please see [languages.md](#)
+## Library Usage:
+### NPM NodeJS Usage
+#### Note: The TAS package for NPM is in Public Beta and may not be stable.
 
-## Python Usage
-
-For Python usage please see [PyUsage.py](#)
-
-
-## Javascript Usage
-
-For Javascript usage please see [JSUsage.js](#)
+NPM Package installation: ```npm install tastranslate``` <br>
+Usage: [Usage/NPMUsage.mjs](#) (.mjs extention required)
 
 
-## CURL / General API requests
+## General Usage:
+### Python Usage
+
+For Python usage please see [Usage/PyUsage.py](#)
+
+
+### Javascript Usage
+
+For Javascript usage please see [Usage/JSUsage.js](#)
+
+
+### CURL / General API requests
 To use other languages like C or C++ please see:
 ```
 curl -X GET 'https://655.mtis.workers.dev/translate?text=Tell%20me%20a%20joke%20about%20Cloudflare&source_lang=en&target_lang=fr'
@@ -41,7 +49,7 @@ curl -X GET 'https://655.mtis.workers.dev/translate?text=Tell%20me%20a%20joke%20
 ## Contact:
 Uncover-F Discord Username: 0013500
 ## Coming Soon:
-- NodeJS Library (Beta)
+- NodeJS Library (Beta Public Deployment)
 - PIP Library (In Development)
 
 Please star this repository is you found it useful. 
