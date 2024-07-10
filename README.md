@@ -2,7 +2,7 @@
 
 ## IMPORTANT: LICENSE AGREEMENT
 ### Important Notice
-Please read the LICENSE file carefully before using the TAS Translation API. By using this API, you acknowledge that you have read, understood, and agree to be bound by the terms and conditions of the MIT License.
+Please read the [LICENSE](#) file carefully before using the TAS Translation API. By using this API, you acknowledge that you have read, understood, and agree to be bound by the terms and conditions of the MIT License.
 
 ### YOU ASSUME ALL RISK
 
