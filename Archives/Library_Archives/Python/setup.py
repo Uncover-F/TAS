@@ -3,7 +3,7 @@ from setuptools import find_packages, setup
 setup(
     name='TrAS',
     packages=find_packages(include="TrAS"),
-    version='0.1.0',
+    version='0.1.1',
     description='Translation Utilities',
     author='Circuitbreaker08, Uncover',
     author_email="circuitbreaker08@gmail.com",
