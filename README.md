@@ -19,8 +19,8 @@ This AI-based translation is free, no signup required, with no set limits. Our A
 
 # Usage:
 
-For a list of supported languages please see [languages.md](#)<br><br>
-Emergency Endpoint: ```https://emergency-tas-backup1.uncoverclimatix.workers.dev/``` (Usage is the same except libraries cannot currently be used). This is the emergency endpoint that has a 7.5 second delay and a 80 character input limit. This is the backup url for faults in the future. DO NOT USE THIS IF THE ORIGINAL ENDPOINT IS UP AND RUNNING.
+For a list of supported languages please see [languages.md](#)<br>
+##### Emergency Endpoint: ```https://emergency-tas-backup1.uncoverclimatix.workers.dev/``` (Usage is the same except libraries cannot currently be used). This is the emergency endpoint that has a 7.5 second delay and a 80 character input limit. This is the backup url for faults in the future. DO NOT USE THIS IF THE ORIGINAL ENDPOINT IS UP AND RUNNING.
 ## Library Usage:
 ### NPM NodeJS Usage
 #### Note: The TAS package for NPM is in Public Beta and may not be stable.
