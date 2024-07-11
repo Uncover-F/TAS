@@ -15,7 +15,7 @@ By accessing or using the TAS Translation API, you acknowledge that you have rea
 ---
 
 This is the revival of TAS translation API. We have not changed our old API endpoint for convenience, and our older products have not been taken down.
-This AI-based translation is 100% free, with no set limits. Our API is available in many different languages and uses `@cf/meta/m2m100-1.2b` for translation. 
+This AI-based translation is free, no signup required, with no set limits. Our API is available in many different languages and uses `@cf/meta/m2m100-1.2b` for translation. 
 
 # Usage:
 
@@ -54,7 +54,7 @@ Uncover-F Discord Username: 0013500
 
 Please star this repository is you found it useful. 
 ## Goal:
-If this repository gets more than 100 stars, we may make 1 of the following (100% free):
+If this repository gets more than 100 stars, we may make 1 of the following (free):
 - Free Speech to Text API ```@cf/openai/whisper```
 - Free Image Classification API ```@cf/microsoft/resnet-50```
 - Free Text Classification API  ```@cf/huggingface/distilbert-sst-2-int8```
