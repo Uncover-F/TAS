@@ -1,0 +1,2 @@
+[console_scripts]
+tastranslate = tastranslation.translate:main

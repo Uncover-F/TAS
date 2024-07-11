@@ -22,6 +22,11 @@ This AI-based translation is free, no signup required, with no set limits. Our A
 For a list of supported languages please see [languages.md](#)<br>
 ##### Emergency Endpoint: ```https://emergency-tas-backup1.uncoverclimatix.workers.dev/``` (Usage is the same except libraries cannot currently be used). This is the emergency endpoint that has a 7.5 second delay and a 80 character input limit. This is the backup url for faults in the future. DO NOT USE THIS IF THE ORIGINAL ENDPOINT IS UP AND RUNNING.
 ## Library Usage:
+### PIP Python Usage
+#### Note: The TAS package for PIP is in Beta and will constantly change.
+
+PIP Package installation: ```pip install tastranslate``` <br>
+Usage: [Usage/PIPUsage.py](#) 
 ### NPM NodeJS Usage
 #### Note: The TAS package for NPM is in Public Beta and may not be stable.
 
@@ -51,7 +56,7 @@ curl -X GET 'https://655.mtis.workers.dev/translate?text=Tell%20me%20a%20joke%20
 Uncover-F Discord Username: 0013500
 ## Coming Soon:
 - NodeJS Library (Beta Public Deployment)
-- PIP Library (In Development)
+- PIP Library (Beta)
 
 Please star this repository is you found it useful. 
 ## Goal:

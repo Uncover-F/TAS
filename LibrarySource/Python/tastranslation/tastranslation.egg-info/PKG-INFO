@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: tastranslation
+Version: 0.1
+Summary: Python package for interacting with the TAS API
+Home-page: https://github.com/Uncover-F/TAS
+Author: Uncover-F
+Author-email: your@email.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+Python package for interacting with Cloudflare Worker translation endpoint

@@ -1,0 +1,10 @@
+README.md
+setup.py
+tastranslation/__init__.py
+tastranslation/translate.py
+tastranslation.egg-info/PKG-INFO
+tastranslation.egg-info/SOURCES.txt
+tastranslation.egg-info/dependency_links.txt
+tastranslation.egg-info/entry_points.txt
+tastranslation.egg-info/requires.txt
+tastranslation.egg-info/top_level.txt
