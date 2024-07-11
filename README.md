@@ -50,10 +50,14 @@ To use other languages like C or C++ please see:
 ```
 curl -X GET 'https://655.mtis.workers.dev/translate?text=Tell%20me%20a%20joke%20about%20Cloudflare&source_lang=en&target_lang=fr'
 ```
-
+# Contribution:
+#### Note: To contribute/collaborate you will need to contact one of the following or create a pull request adressing a issue and it's solution.
+### Contact:
+- (Discord) .0013500
+- (Email) uncoverclimatix@duck.com
 # Other:
-## Contact:
-Uncover-F Discord Username: 0013500
+## Contact & Support:
+Uncover-F Discord Username: .0013500
 ## Coming Soon:
 - NodeJS Library (Beta Public Deployment)
 - PIP Library (Beta)
