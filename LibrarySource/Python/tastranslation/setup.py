@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='tastranslation',
-    version='0.1',
+    version='0.2',
     packages=find_packages(),
     install_requires=[
         'requests',
@@ -13,7 +13,7 @@ setup(
         ],
     },
     author='Uncover-F',
-    author_email='your@email.com',
+    author_email='shlok.mayur.o@gmail.com',
     description='Python package for interacting with the TAS API',
     long_description='''Python package for interacting with Cloudflare Worker translation endpoint''',
     long_description_content_type='text/markdown',
