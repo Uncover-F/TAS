@@ -15,18 +15,17 @@ By accessing or using the TAS Translation API, you acknowledge that you have rea
 ---
 
 This is the revival of TAS translation API. We have not changed our old API endpoint for convenience, and our older products have not been taken down.
-This AI-based translation is free, no signup required, with no set limits. Our API is available in many different languages and uses `@cf/meta/m2m100-1.2b` for translation. Programming languages we support: C++, Python, JavaScript, ShellScript, Bash/Bat or literally anything that supports API requests/responses. 
+This AI-based translation is free, no signup required. Our API is available in many different languages and uses `@cf/meta/m2m100-1.2b` for translation. Programming languages we support: C++, Python, JavaScript, ShellScript, Bash/Bat or literally anything that supports API requests/responses. 
 
 ## Details/Features:
 - 1.220 second latency
 - Backup API
-- Fully Free
+- Free
 - No Sign Up
 - Multiple Libraries
 - Multiple Languages
 - GET Request
 - Public API
-- No Paid Plan
 
 # Usage:
 
