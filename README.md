@@ -73,6 +73,7 @@ curl -X GET 'https://655.mtis.workers.dev/translate?text=Tell%20me%20a%20joke%20
 # Other:
 ## Contact & Support:
 Uncover-F Discord Username: .0013500
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/R6R510R329)
 ## Coming Soon:
 - NodeJS Library (Beta Public Deployment)
 
