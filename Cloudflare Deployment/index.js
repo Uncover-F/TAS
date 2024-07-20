@@ -84,7 +84,7 @@ export default {
     if (blockedIPs.has(clientIP)) {
       sendToDiscord(`Access denied for IP: ${clientIP} Content: ` + text);
       await sleep(1500)
-      return new Response(JSON.stringify({ error: 'Access denied. Your IP has been banned. To appeal this ban please contact shlok.mayur.o@gmail.com.' }), {
+      return new Response(JSON.stringify({ error: 'Access denied. Your IP has been banned. To appeal this ban please contact uncoverclimatix@duck.com.' }), {
         status: 403,
         headers: { 'Content-Type': 'application/json' },
       });
