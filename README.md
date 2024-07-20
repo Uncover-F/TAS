@@ -77,6 +77,9 @@ Uncover-F Discord Username: .0013500
 - NodeJS Library (Beta Public Deployment)
 
 Please star this repository is you found it useful. 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Uncover-F/TAS&type=Date)](https://star-history.com/#Uncover-F/TAS&Date)
 ## Goal:
 If this repository gets more than 100 stars, we may make 1 of the following (free):
 - Free Speech to Text API ```@cf/openai/whisper```
