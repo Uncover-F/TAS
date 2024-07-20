@@ -1,3 +1,4 @@
+![alt text](https://github.com/Uncover-F/TAS/blob/Uncover/logo.jpg?raw=true)
 # TAS Translation API
 
 ## IMPORTANT: LICENSE AGREEMENT
@@ -13,8 +14,6 @@ By using this API, you release and hold harmless the authors and contributors fr
 By accessing or using the TAS Translation API, you acknowledge that you have read and agree to be bound by the terms of the MIT License.
 
 ---
-
-![alt text](https://github.com/Uncover-F/TAS/blob/Uncover/logo.jpg?raw=true)
 
 This is the revival of TAS translation API. We have not changed our old API endpoint for convenience, and our older products have not been taken down.
 This AI-based translation is free, no signup required. Our API is available in many different languages and uses `@cf/meta/m2m100-1.2b` for translation. Programming languages we support: C++, Python, JavaScript, ShellScript, Bash/Bat or literally anything that supports API requests/responses. 
