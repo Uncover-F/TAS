@@ -123,6 +123,18 @@ export default {
       await sleep(1500)
       sendToDiscord('IP Address blocked by AutoScan due to Uptime-Kuma useragent. IP ADRS=' + clientIP);
     }
+    if (sourceLang.length > 2 || sourceLang.length < 2 ) {
+      return new Response(JSON.stringify({ error: 'Invalid sourceLang.' }), {
+        status: 400,
+        headers: { 'Content-Type': 'application/json' },
+      });
+    }
+    if (targetLang.length > 2 || targetLang.length < 2 ) {
+      return new Response(JSON.stringify({ error: 'Invalid targetLang.' }), {
+        status: 400,
+        headers: { 'Content-Type': 'application/json' },
+      });
+    }
 
 
     // ----------------------------------------------------------------------
