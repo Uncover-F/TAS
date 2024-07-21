@@ -1,3 +1,4 @@
+// API Management Code
 const requestTracker = {}; // Request Tracker
 const cache = new Map(); // Cache for successful requests
 const CACHE_LIMIT = 50000; // Define the cache size limit
@@ -122,6 +123,16 @@ export default {
       await sleep(1500)
       sendToDiscord('IP Address blocked by AutoScan due to Uptime-Kuma useragent. IP ADRS=' + clientIP);
     }
+    if (requestTracker[clientIP] && requestTracker[clientIP] > requestTime - 3) {
+      addBlockedIP(clientIP);
+      sendToDiscord(`Hard rate limit exceeded for IP: ${clientIP}`);
+      await sleep(1500)
+      return new Response(JSON.stringify({ error: 'Hard rate limit exceeded. Please contact uncoverclimatix@duck.com.' }), {
+        status: 429,
+        headers: { 'Content-Type': 'application/json' },
+      });
+    }
+    requestTracker[clientIP] = requestTime;
 
 
     // ----------------------------------------------------------------------
