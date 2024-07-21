@@ -65,6 +65,13 @@ To use other languages like C or C++ please see:
 ```
 curl -X GET 'https://655.mtis.workers.dev/translate?text=Tell%20me%20a%20joke%20about%20Cloudflare&source_lang=en&target_lang=fr'
 ```
+## Error Codes:
+- 200 Successful response
+- 400 Incorrect or missing parameters. / Resource not found.
+- 403 Access Denied to API.
+- 429 Rate Limit Reached.
+- 500 Internal server error. 
+
 # Contribution:
 #### Note: To contribute/collaborate you will need to contact one of the following or create a pull request adressing a issue and it's solution.
 ### Contact:
