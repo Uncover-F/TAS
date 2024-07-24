@@ -16,15 +16,14 @@ By accessing or using the TAS Translation API, you acknowledge that you have rea
 ---
 
 This is the revival of TAS translation API. We have not changed our old API endpoint for convenience, and our older products have not been taken down.
-This AI-based translation is free, no signup required. Our API is available in many different languages and uses `@cf/meta/m2m100-1.2b` for translation. Programming languages we support: C++, Python, JavaScript, ShellScript, Bash/Bat or literally anything that supports API requests/responses. 
+This AI-based translation is free (with limited acuraccy and reliability), no signup required. Our API is available in many different languages and uses `@cf/meta/m2m100-1.2b` for translation. Programming languages we support: C++, Python, JavaScript, ShellScript, Bash/Bat or literally anything that supports API requests/responses. 
 
 ## Details/Features:
 - 1.220 second latency
 - Backup API
-- Free
+- Free (with limited acuraccy and reliability)
 - No Sign Up
 - Multiple Libraries
-- Multiple Languages
 - GET Request
 - Public API
 
@@ -89,10 +88,10 @@ Please star this repository is you found it useful.
 [![Star History Chart](https://api.star-history.com/svg?repos=Uncover-F/TAS&type=Date)](https://star-history.com/#Uncover-F/TAS&Date)
 ## Goal:
 If this repository gets more than 100 stars, we may make 1 of the following (free):
-- Free Speech to Text API ```@cf/openai/whisper```
-- Free Image Classification API ```@cf/microsoft/resnet-50```
-- Free Text Classification API  ```@cf/huggingface/distilbert-sst-2-int8```
-- Free Text to Image API ```@cf/stabilityai/stable-diffusion-xl-base-1.0```
-- Free LLM API ```@cf/meta/llama-3-8b-instruct```
+- Speech to Text API ```@cf/openai/whisper```
+- Image Classification API ```@cf/microsoft/resnet-50```
+- Text Classification API  ```@cf/huggingface/distilbert-sst-2-int8```
+- Text to Image API ```@cf/stabilityai/stable-diffusion-xl-base-1.0```
+- LLM API ```@cf/meta/llama-3-8b-instruct```
 
 
