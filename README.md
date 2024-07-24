@@ -87,7 +87,7 @@ Please star this repository is you found it useful.
 
 [![Star History Chart](https://api.star-history.com/svg?repos=Uncover-F/TAS&type=Date)](https://star-history.com/#Uncover-F/TAS&Date)
 ## Goal:
-If this repository gets more than 100 stars, we may make 1 of the following (free):
+If this repository gets more than 100 stars, we may make 1 of the following (free with limited acuraccy and reliability):
 - Speech to Text API ```@cf/openai/whisper```
 - Image Classification API ```@cf/microsoft/resnet-50```
 - Text Classification API  ```@cf/huggingface/distilbert-sst-2-int8```
