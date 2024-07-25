@@ -61,6 +61,7 @@ For Javascript usage please see [Usage/JSUsage.js](#)
 ###  HTML/WEB Usage
 
 For HTML or Web usage due to the CORS issue you may need to use a Cors Proxy. For full usage with proxy please see [Usage/HTMLUsage.html] (#)
+#### Example Request Usage: ```https://api.allorigins.win/get?url=https%3A%2F%2F655.mtis.workers.dev%2Ftranslate%3Ftext%3DTell%2520me%2520a%2520joke%2520about%2520Cloudflare%26source_lang%3Den%26target_lang%3Dfr```
 
 ### CURL / General API requests
 To use other languages like C or C++ please see:
