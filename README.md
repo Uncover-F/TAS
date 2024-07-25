@@ -16,14 +16,14 @@ By accessing or using the TAS Translation API, you acknowledge that you have rea
 ---
 
 This is the revival of TAS translation API. We have not changed our old API endpoint for convenience, and our older products have not been taken down.
-This AI-based translation is free (with limited acuraccy and reliability), no signup required. Our API is available in many different languages and uses `@cf/meta/m2m100-1.2b` for translation. Programming languages we support: C++, Python, JavaScript, ShellScript, Bash/Bat or literally anything that supports API requests/responses. 
+This AI-based translation is free (with limited accuracy and reliability), no signup required. Our API is available in many different languages and uses `@cf/meta/m2m100-1.2b` for translation. Programming languages we support: C++, Python, JavaScript, ShellScript, Bash/Bat or literally anything that supports API requests/responses. 
 
 [<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://app.getpostman.com/run-collection/30169488-3bddcffe-555a-410f-be54-f7d8885da6aa?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D30169488-3bddcffe-555a-410f-be54-f7d8885da6aa%26entityType%3Dcollection%26workspaceId%3Dec241a5e-dcf6-43f6-9283-579f930ba4f2)
 
 ## Details/Features:
 - 1.220 second latency
 - Backup API
-- Free (with limited acuraccy and reliability)
+- Free (with limited accuracy and reliability)
 - No Sign Up
 - Multiple Libraries
 - GET Request
@@ -93,7 +93,7 @@ Please star this repository is you found it useful.
 
 [![Star History Chart](https://api.star-history.com/svg?repos=Uncover-F/TAS&type=Date)](https://star-history.com/#Uncover-F/TAS&Date)
 ## Goal:
-If this repository gets more than 100 stars, we may make 1 of the following (free with limited acuraccy and reliability):
+If this repository gets more than 100 stars, we may make 1 of the following (free with limited accuracy and reliability):
 - Speech to Text API ```@cf/openai/whisper```
 - Image Classification API ```@cf/microsoft/resnet-50```
 - Text Classification API  ```@cf/huggingface/distilbert-sst-2-int8```
