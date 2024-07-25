@@ -58,6 +58,9 @@ For Python usage please see [Usage/PyUsage.py](#)
 
 For Javascript usage please see [Usage/JSUsage.js](#)
 
+###  HTML/WEB Usage
+
+For HTML or Web usage due to the CORS issue you may need to use a Cors Proxy. For full usage with proxy please see [Usage/HTMLUsage.html] (#)
 
 ### CURL / General API requests
 To use other languages like C or C++ please see:
