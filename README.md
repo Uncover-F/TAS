@@ -18,6 +18,8 @@ By accessing or using the TAS Translation API, you acknowledge that you have rea
 This is the revival of TAS translation API. We have not changed our old API endpoint for convenience, and our older products have not been taken down.
 This AI-based translation is free (with limited acuraccy and reliability), no signup required. Our API is available in many different languages and uses `@cf/meta/m2m100-1.2b` for translation. Programming languages we support: C++, Python, JavaScript, ShellScript, Bash/Bat or literally anything that supports API requests/responses. 
 
+[<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://app.getpostman.com/run-collection/30169488-3bddcffe-555a-410f-be54-f7d8885da6aa?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D30169488-3bddcffe-555a-410f-be54-f7d8885da6aa%26entityType%3Dcollection%26workspaceId%3Dec241a5e-dcf6-43f6-9283-579f930ba4f2)
+
 ## Details/Features:
 - 1.220 second latency
 - Backup API
