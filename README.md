@@ -86,7 +86,7 @@ curl -X GET 'https://655.mtis.workers.dev/translate?text=Tell%20me%20a%20joke%20
 ## Contact & Support:
 Uncover-F Discord Username: .0013500
 ## Coming Soon:
-- NodeJS Library (Beta Public Deployment)
+- Anti-DDOS Firmware (In Progress)
 
 Please star this repository is you found it useful. 
 ## Star History
