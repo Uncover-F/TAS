@@ -28,17 +28,43 @@
             const sourceLang = document.getElementById('source_lang').value;
             const targetLang = document.getElementById('target_lang').value;
 
-            const apiUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(`https://655.mtis.workers.dev/translate?text=${encodeURIComponent(text)}&source_lang=${sourceLang}&target_lang=${targetLang}`)}`;
+            const endpointsUrl = 'https://api.allorigins.win/get?url=' + encodeURIComponent('https://raw.githubusercontent.com/Uncover-F/TAS/Uncover/.data/endpoints.json');
 
             try {
-                const response = await fetch(apiUrl);
-                const data = await response.json();
-                const parsedContents = JSON.parse(data.contents);
-                const translation = parsedContents.response.translated_text;
-                document.getElementById('result').textContent = translation;
+                const endpointsResponse = await fetch(endpointsUrl);
+                if (!endpointsResponse.ok) {
+                    throw new Error(`Error fetching endpoints: ${endpointsResponse.status} - ${endpointsResponse.statusText}`);
+                }
+                const endpointsData = await endpointsResponse.json();
+                const endpoints = JSON.parse(endpointsData.contents);
+
+                let translation = null;
+
+                for (const endpoint of endpoints) {
+                    const apiUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(`${endpoint}?text=${encodeURIComponent(text)}&source_lang=${sourceLang}&target_lang=${targetLang}`)}`;
+                    try {
+                        const response = await fetch(apiUrl);
+                        if (response.ok) {
+                            const data = await response.json();
+                            const parsedContents = JSON.parse(data.contents);
+                            translation = parsedContents.response.translated_text;
+                            break;
+                        } else {
+                            console.error(`Error at ${endpoint}: ${response.status} - ${response.statusText}`);
+                        }
+                    } catch (error) {
+                        console.error(`Request exception at ${endpoint}:`, error);
+                    }
+                }
+
+                if (translation !== null) {
+                    document.getElementById('result').textContent = translation;
+                } else {
+                    document.getElementById('result').textContent = 'All endpoints failed.';
+                }
             } catch (error) {
                 console.error('Error:', error);
-                document.getElementById('result').textContent = 'Error occurred while fetching the translation.';
+                document.getElementById('result').textContent = 'Error occurred while fetching the endpoints.';
             }
         }
     </script>

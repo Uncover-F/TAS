@@ -1,7 +1,7 @@
 import requests
 
-# Define the Cloudflare Worker endpoint URL
-worker_url = 'https://655.mtis.workers.dev/translate'
+# URL to retrieve the list of endpoints
+endpoints_url = 'https://raw.githubusercontent.com/Uncover-F/TAS/Uncover/.data/endpoints.json'
 
 # Parameters for translation (customize as needed)
 params = {
@@ -10,12 +10,40 @@ params = {
     'target_lang': 'fr'   # Target language code
 }
 
-# Send GET request to the Cloudflare Worker endpoint
-response = requests.get(worker_url, params=params)
+# Function to send GET request to an endpoint
+def send_request(url, params):
+    try:
+        response = requests.get(url, params=params)
+        if response.status_code == 200:
+            return response.json()
+        else:
+            print(f'Error at {url}: {response.status_code} - {response.text}')
+            return None
+    except requests.RequestException as e:
+        print(f'Request exception at {url}: {e}')
+        return None
 
-# Check if the request was successful
-if response.status_code == 200:
-    # Print the JSON response (inputs and translation result)
-    print(response.json())
+# Get the list of endpoints
+try:
+    endpoints_response = requests.get(endpoints_url)
+    if endpoints_response.status_code == 200:
+        endpoints = endpoints_response.json()
+    else:
+        print(f'Error fetching endpoints: {endpoints_response.status_code} - {endpoints_response.text}')
+        endpoints = []
+except requests.RequestException as e:
+    print(f'Request exception fetching endpoints: {e}')
+    endpoints = []
+
+# Try each endpoint until one works
+result = None
+for endpoint in endpoints:
+    result = send_request(endpoint, params)
+    if result is not None:
+        break
+
+# Print the result or an error message
+if result is not None:
+    print(result)
 else:
-    print(f'Error: {response.status_code} - {response.text}')
+    print('All endpoints failed.')
