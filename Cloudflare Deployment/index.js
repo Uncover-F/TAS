@@ -28,9 +28,11 @@ function temporarilyBanIP(ip, duration = 15000) {
   }
 }
 
-// Add initial blocked IPs
+// Add initial blocked IPs 
 addBlockedIP('143.208.36.161');
 addBlockedIP('35.196.132.85');
+addBlockedIP('213.6.49.147');
+
 
 // Time Sleep
 function sleep(ms) {
@@ -40,7 +42,7 @@ function sleep(ms) {
 }
 
 // Discord Management
-const discordWebhookUrl = 'WEBHOOK';
+const discordWebhookUrl = 'ENDPOINT';
 async function sendToDiscord(message) {
   try {
     const response = await fetch(discordWebhookUrl, {
@@ -159,7 +161,7 @@ export default {
       });
     }
     const Hard_requestTime = Date.now();
-    if (Hard_requestTracker[clientIP] && Hard_requestTracker[clientIP] > Hard_requestTime - 20) {
+    if (Hard_requestTracker[clientIP] && Hard_requestTracker[clientIP] > Hard_requestTime - 10) {
       addBlockedIP(clientIP);
       sendToDiscord(`Hard rate limit exceeded for IP: ${clientIP}`);
       await sleep(1500);
