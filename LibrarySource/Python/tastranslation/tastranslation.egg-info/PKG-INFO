@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: tastranslation
-Version: 0.2
+Version: 0.3
 Summary: Python package for interacting with the TAS API
 Home-page: https://github.com/Uncover-F/TAS
 Author: Uncover-F
