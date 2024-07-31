@@ -1,22 +1,41 @@
-![alt text](https://github.com/Uncover-F/TAS/blob/Uncover/logo.jpg?raw=true)
 # TAS Translation API
 
-## IMPORTANT: LICENSE AGREEMENT
+# IMPORTANT: LICENSE AGREEMENT - PLEASE READ!
+
 ### Important Notice
+
 Please read the [LICENSE](#) file carefully before using the TAS Translation API. By using this API, you acknowledge that you have read, understood, and agree to be bound by the terms and conditions of the MIT License.
 
 ### YOU ASSUME ALL RISK
 
-By using this API, you release and hold harmless the authors and contributors from any claims, damages, or liabilities arising from your use of the API. You also acknowledge that you have no claim against the authors or contributors for any damages or losses arising from your use of the API.
+- By using this API, you release and hold harmless the authors and contributors from any claims, damages, or liabilities arising from your use of the API.
+- You acknowledge that you have no claim against the authors or contributors for any damages or losses arising from your use of the API, including but not limited to loss of data, service interruptions, or any other technical issues.
 
 ### USE AT YOUR OWN RISK
 
-By accessing or using the TAS Translation API, you acknowledge that you have read and agree to be bound by the terms of the MIT License.
+- By accessing or using the TAS Translation API, you acknowledge that you have read and agree to be bound by the terms of the MIT License.
+- The API is provided "as is" without any warranties or guarantees of any kind, express or implied.
+
+### NO GUARANTEES ON PRIVACY OR RELIABILITY
+
+- **PRIVACY WARNING**: This API is not designed to be privacy-focused. We cannot ensure the privacy or security of your data due to verification and moderation concerns. Do not use this API for any purposes that require privacy or confidentiality.
+- **DATA EXPOSURE**: By using this API, you understand and agree that your data may be exposed to third parties. We are not responsible for any data breaches or unauthorized access to your information.
+- **SERVICE INTERRUPTIONS**: The API may experience downtime, interruptions, or technical issues at any time. We do not guarantee continuous, uninterrupted access to the API.
+
+### TERMS SUBJECT TO CHANGE
+
+- We reserve the right to modify these terms and conditions at any time without prior notice.
+- By continuing to use the API after any changes, you accept and agree to the revised terms.
+- It is your responsibility to review the terms regularly to stay informed of any updates or modifications.
+
+### LIMITATION OF LIABILITY
+
+- To the maximum extent permitted by law, the authors and contributors shall not be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services, loss of use, data, or profits, or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this API, even if advised of the possibility of such damage.
 
 ---
 
 This is the revival of TAS translation API. We have not changed our old API endpoint for convenience, and our older products have not been taken down.
-This AI-based translation is free (with limited accuracy and reliability), no signup required. Our API is available in many different languages and uses `@cf/meta/m2m100-1.2b` for translation. Programming languages we support: C++, Python, JavaScript, ShellScript, Bash/Bat or literally anything that supports API requests/responses. 
+This AI-based translation is free (with limited accuracy, reliability and privacy), no signup required. Our API is available in many different languages and uses `@cf/meta/m2m100-1.2b` for translation. Programming languages we support: C++, Python, JavaScript, ShellScript, Bash/Bat or literally anything that supports API requests/responses. 
 
 [<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://app.getpostman.com/run-collection/30169488-3bddcffe-555a-410f-be54-f7d8885da6aa?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D30169488-3bddcffe-555a-410f-be54-f7d8885da6aa%26entityType%3Dcollection%26workspaceId%3Dec241a5e-dcf6-43f6-9283-579f930ba4f2)
 
@@ -96,7 +115,7 @@ Please star this repository is you found it useful.
 
 [![Star History Chart](https://api.star-history.com/svg?repos=Uncover-F/TAS&type=Date)](https://star-history.com/#Uncover-F/TAS&Date)
 ## Goal:
-If this repository gets more than 100 stars, we may make 1 of the following (free with limited accuracy and reliability):
+If this repository gets more than 100 stars, we may make 1 of the following (free with limited accuracy, reliability and privacy):
 - Speech to Text API ```@cf/openai/whisper```
 - Image Classification API ```@cf/microsoft/resnet-50```
 - Text Classification API  ```@cf/huggingface/distilbert-sst-2-int8```
