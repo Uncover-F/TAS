@@ -42,7 +42,7 @@ This AI-based translation is free (with limited accuracy, reliability and privac
 ## Details/Features:
 - 1.220 second latency
 - Backup API
-- Free (with limited accuracy and reliability)
+- Free (with limited accuracy, reliability and privacy)
 - No Sign Up
 - Multiple Libraries
 - GET Request
