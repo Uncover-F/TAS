@@ -30,8 +30,10 @@ This AI-based translation is free (with limited accuracy and reliability), no si
 - Public API
 
 ## Anti-DDOS Firmware
-We are against DDOS attacks or health checks as they block others from using the API. We block IPs using algorithms. If you have been blocked an you think it's a mistake, you can always contact uncoverclimatix@duck.com to get pardoned. We use rate limiting for ensuring everyone can use our services. With that aside, we use caching to cache many requests to keep a stable log of requests to prevent as much AI usage as possible. Despite this, DDOS attacks can still happen and our services may be temporarily down, but we also have a backup endpoint to support DDOS recovery. If things get out of hand, we will manually and permanently ban DDOSers. Permanent bans can only happen with proof and with human moderators. Autoscan cannot give out permenent bans. Attempting to bypass these bans can result in being banned again or in extreme cases banning the reigon or useragent. (ONLY IN EXTREME CASES WHEN THE API IS TAKEN DOWN FOR MONTHS)
+We are against DDOS attacks or health checks as they block others from using the API. We block IPs using algorithms. If you have been blocked an you think it's a mistake, you can always contact uncoverclimatix@duck.com or fill in the form linked below to get pardoned. We use rate limiting for ensuring everyone can use our services. With that aside, we use caching to cache many requests to keep a stable log of requests to prevent as much AI usage as possible. Despite this, DDOS attacks can still happen and our services may be temporarily down, but we also have a backup endpoint to support DDOS recovery. If things get out of hand, we will manually and permanently ban DDOSers. Permanent bans can only happen with proof and with human moderators. Autoscan cannot give out permenent bans. Attempting to bypass these bans can result in being banned again or in extreme cases banning the reigon or useragent. (ONLY IN EXTREME CASES WHEN THE API IS TAKEN DOWN FOR MONTHS)
 ##### PERMENENT BANS WILL NOT BE PARDONED UNDER ANY CONDITION.
+
+https://forms.office.com/r/WSkSsydcvm
 
 # Usage:
 
