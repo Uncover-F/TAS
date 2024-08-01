@@ -4,7 +4,7 @@
 
 ### Important Notice
 
-Please read the [LICENSE](#) file carefully before using the TAS Translation API. By using this API, you acknowledge that you have read, understood, and agree to be bound by the terms and conditions of the MIT License.
+Please read the [LICENSE](#) file carefully before using the TAS Translation API. By using this API, you acknowledge that you have read, understood, and agree to be bound by the terms and conditions of the Apache License 2.0.
 
 ### YOU ASSUME ALL RISK
 
@@ -13,7 +13,7 @@ Please read the [LICENSE](#) file carefully before using the TAS Translation API
 
 ### USE AT YOUR OWN RISK
 
-- By accessing or using the TAS Translation API, you acknowledge that you have read and agree to be bound by the terms of the MIT License.
+- By accessing or using the TAS Translation API, you acknowledge that you have read and agree to be bound by the terms of the Apache License 2.0.
 - The API is provided "as is" without any warranties or guarantees of any kind, express or implied.
 
 ### NO GUARANTEES ON PRIVACY OR RELIABILITY
