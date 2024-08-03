@@ -107,6 +107,8 @@ curl -X GET 'https://655.mtis.workers.dev/translate?text=Tell%20me%20a%20joke%20
 # Other:
 ## Contact & Support:
 Uncover-F Discord Username: .0013500
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A0A411CJYS)
 ## Coming Soon:
 - Anti-DDOS Firmware (In Progress)
 
