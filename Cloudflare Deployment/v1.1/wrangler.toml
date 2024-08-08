@@ -1,0 +1,6 @@
+name = "translation"
+main = "index.js"
+compatibility_date = "2023-08-23"
+
+[ai]
+binding = "AI"

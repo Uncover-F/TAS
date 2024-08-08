@@ -39,14 +39,17 @@ This AI-based translation is free (with limited accuracy, reliability and privac
 
 [<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://app.getpostman.com/run-collection/30169488-3bddcffe-555a-410f-be54-f7d8885da6aa?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D30169488-3bddcffe-555a-410f-be54-f7d8885da6aa%26entityType%3Dcollection%26workspaceId%3Dec241a5e-dcf6-43f6-9283-579f930ba4f2) 
 
-## Details/Features:
-- 1.220 second latency
-- Backup API
+## Limitations:
+- Rate Limit (4 Requests per second) = 20 Second Timeout
+- 100 Character Input
+- Hard Rate Limit (20 Requests per second) = Auto Ban
+- No uptime guaranties 
+
+## Features:
 - Free (with limited accuracy, reliability and privacy)
 - No Sign Up
-- Multiple Libraries
-- GET Request
-- Public API
+- Open Source
+- Active development
 
 ## Anti-DDOS Firmware
 We are against DDOS attacks or health checks as they block others from using the API. We block IPs using algorithms. If you have been blocked an you think it's a mistake, you can always contact uncoverclimatix@duck.com or fill in the form linked below to get pardoned. We use rate limiting for ensuring everyone can use our services. With that aside, we use caching to cache many requests to keep a stable log of requests to prevent as much AI usage as possible. Despite this, DDOS attacks can still happen and our services may be temporarily down, but we also have a backup endpoint to support DDOS recovery. If things get out of hand, we will manually and permanently ban DDOSers. Permanent bans can only happen with proof and with human moderators. Autoscan cannot give out permenent bans. Attempting to bypass these bans can result in being banned again or in extreme cases banning the reigon or useragent. (ONLY IN EXTREME CASES WHEN THE API IS TAKEN DOWN FOR MONTHS)
