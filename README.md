@@ -1,6 +1,6 @@
 # TAS Translation API
 
-# IMPORTANT: LICENSE AGREEMENT - PLEASE READ!
+## IMPORTANT: LICENSE AGREEMENT - PLEASE READ!
 
 ### Important Notice
 
@@ -31,6 +31,14 @@ Please read the [LICENSE](#) file carefully before using the TAS Translation API
 ### LIMITATION OF LIABILITY
 
 - To the maximum extent permitted by law, the authors and contributors shall not be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services, loss of use, data, or profits, or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this API, even if advised of the possibility of such damage.
+
+### DOCUMENTATION DISCLAIMER
+
+- The documentation provided for the TAS Translation API is for informational purposes only. While we strive to ensure the accuracy and reliability of the information provided, the documentation may contain errors, inaccuracies, or outdated information.
+- **NO WARRANTIES**: The authors and contributors make no guarantees, representations, or warranties, whether expressed or implied, about the completeness, accuracy, or reliability of the documentation or any content within it.
+- **NO LIABILITY**: The authors and contributors shall not be held liable for any direct, indirect, incidental, special, exemplary, or consequential damages resulting from the use of or reliance on any information contained in the documentation, even if advised of the possibility of such damage.
+- **USE AT YOUR OWN RISK**: Any reliance on the information provided in the documentation is strictly at your own risk. The authors and contributors do not assume any responsibility for errors, omissions, or inaccuracies, nor for any actions taken in reliance on the information provided.
+
 
 ---
 
