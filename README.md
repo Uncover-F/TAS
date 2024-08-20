@@ -121,7 +121,8 @@ curl -X GET 'https://655.mtis.workers.dev/translate?text=Tell%20me%20a%20joke%20
 
 # Other:
 ## Contact & Support:
-Uncover-F Discord Username: .0013500
+- (GitHub) You can raise an issue or use GitHub discussions.
+- Uncover-F Discord Username: .0013500 (NOT AVALABLE AT ALL TIMES)
 ## Coming Soon:
 - Anti-DDOS Firmware (In Progress)
 
