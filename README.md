@@ -120,11 +120,11 @@ Please star this repository is you found it useful. You can also donate on Ko-Fi
 
 [![Star History Chart](https://api.star-history.com/svg?repos=Uncover-F/TAS&type=Date)](https://star-history.com/#Uncover-F/TAS&Date)
 ## Goal:
-If this repository gets more than 100 stars, we may make 1 of the following (free with limited accuracy, reliability and privacy):
-- Speech to Text API ```@cf/openai/whisper```
-- Image Classification API ```@cf/microsoft/resnet-50```
-- Text Classification API  ```@cf/huggingface/distilbert-sst-2-int8```
-- Text to Image API ```@cf/stabilityai/stable-diffusion-xl-base-1.0```
-- LLM API ```@cf/meta/llama-3-8b-instruct```
+If this repository gets more than 100 stars, we MAY attempt to make 1 of the following API firmwares (free with limited accuracy, reliability and privacy):
+- Speech to Text API Firmware/Software ```@cf/openai/whisper```
+- Image Classification API Firmware/Software ```@cf/microsoft/resnet-50```
+- Text Classification API Firmware/Software ```@cf/huggingface/distilbert-sst-2-int8```
+- Text to Image API Firmware/Software ```@cf/stabilityai/stable-diffusion-xl-base-1.0```
+- LLM API Firmware/Software ```@cf/meta/llama-3-8b-instruct```
 
 
