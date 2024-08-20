@@ -65,6 +65,11 @@ We are against DDOS attacks or health checks as they block others from using the
 
 https://forms.office.com/r/WSkSsydcvm
 
+## To check uptime, please check here:
+https://stats.uptimerobot.com/VCs8wjm8j5
+
+#### To prevent the API from going down, please refrain from using your own uptime check system.
+
 # Usage:
 
 For a list of supported languages please see [languages.md](#)<br>
