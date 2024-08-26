@@ -79,23 +79,23 @@ For a list of supported languages please see [languages.md](#)<br>
 #### Note: The TAS package for PIP is ready for full use.
 
 PIP Package installation: ```pip install tastranslate``` <br>
-Usage: [Usage/PIPUsage.py](#) 
+Usage: [Usage/Python/PIPUsage.py](#) 
 ### NPM NodeJS Usage
 #### Note: The TAS package for NPM is in Public Beta and may not be stable.
 
 NPM Package installation: ```npm install tastranslate``` <br>
-Usage: [Usage/NPMUsage.mjs](#) (.mjs extention required)
+Usage: [Usage/JavaScript/NPMUsage.mjs](#) (.mjs extention required)
 
 
 ## General Usage:
 ### Python Usage
 
-For Python usage please see [Usage/PyUsage.py](#)
+For Python usage please see [Usage/Python/PyUsage.py](#)
 
 
 ### Javascript Usage
 
-For Javascript usage please see [Usage/JSUsage.js](#)
+For Javascript usage please see [Usage/JavaScript/JSUsage.js](#)
 
 ###  HTML/WEB Usage
 
