@@ -13,7 +13,7 @@
 // limitations under the License.
 
 async function translateText() {
-    const workerUrl = 'https://655.mtis.workers.dev/translate';
+    const endpointsUrl = 'https://raw.githubusercontent.com/Uncover-F/TAS/Uncover/.data/endpoints.json';
     
     // Parameters for translation (customize as needed)
     const params = {
@@ -22,21 +22,39 @@ async function translateText() {
         target_lang: 'fr'   // Target language code
     };
 
-    // Construct URL with query parameters
-    const url = new URL(workerUrl);
-    url.search = new URLSearchParams(params).toString();
-
     try {
-        // Send GET request to the Cloudflare Worker endpoint
-        const response = await fetch(url);
+        // Get the list of endpoints
+        const endpointsResponse = await fetch(endpointsUrl);
+        if (!endpointsResponse.ok) {
+            throw new Error(`Error fetching endpoints: ${endpointsResponse.status} - ${endpointsResponse.statusText}`);
+        }
+        const endpoints = await endpointsResponse.json();
 
-        if (!response.ok) {
-            throw new Error(`HTTP error! Status: ${response.status}`);
+        // Try each endpoint until one works
+        let result = null;
+        for (const endpoint of endpoints) {
+            const url = new URL(endpoint);
+            url.search = new URLSearchParams(params).toString();
+
+            try {
+                const response = await fetch(url);
+                if (response.ok) {
+                    result = await response.json();
+                    break;
+                } else {
+                    console.error(`Error at ${url}: ${response.status} - ${response.statusText}`);
+                }
+            } catch (error) {
+                console.error(`Request exception at ${url}:`, error);
+            }
         }
 
-        // Parse JSON response
-        const data = await response.json();
-        console.log(data);
+        // Print the result or an error message
+        if (result !== null) {
+            console.log(result);
+        } else {
+            console.error('All endpoints failed.');
+        }
     } catch (error) {
         console.error('Error:', error);
     }
