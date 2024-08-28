@@ -1,0 +1,90 @@
+<!--
+Copyright 2024 Uncover-F
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<!--DEPRICATED-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translation API Demo</title>
+</head>
+<body>
+    <h1>Translation API Demo</h1>
+    <form id="translateForm">
+        <label for="text">Text to Translate:</label>
+        <input type="text" id="text" name="text" value="Tell me a joke about Cloudflare">
+        <br><br>
+        <label for="source_lang">Source Language:</label>
+        <input type="text" id="source_lang" name="source_lang" value="en">
+        <br><br>
+        <label for="target_lang">Target Language:</label>
+        <input type="text" id="target_lang" name="target_lang" value="fr">
+        <br><br>
+        <button type="button" onclick="translateText()">Translate</button>
+    </form>
+    <h2>Translation Result:</h2>
+    <p id="result"></p>
+
+    <script>
+        async function translateText() {
+            const text = document.getElementById('text').value;
+            const sourceLang = document.getElementById('source_lang').value;
+            const targetLang = document.getElementById('target_lang').value;
+
+            const endpointsUrl = 'https://api.allorigins.win/get?url=' + encodeURIComponent('https://raw.githubusercontent.com/Uncover-F/TAS/Uncover/.data/endpoints.json');
+
+            try {
+                const endpointsResponse = await fetch(endpointsUrl);
+                if (!endpointsResponse.ok) {
+                    throw new Error(`Error fetching endpoints: ${endpointsResponse.status} - ${endpointsResponse.statusText}`);
+                }
+                const endpointsData = await endpointsResponse.json();
+                const endpoints = JSON.parse(endpointsData.contents);
+
+                let translation = null;
+
+                for (const endpoint of endpoints) {
+                    const apiUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(`${endpoint}?text=${encodeURIComponent(text)}&source_lang=${sourceLang}&target_lang=${targetLang}`)}`;
+                    try {
+                        const response = await fetch(apiUrl);
+                        if (response.ok) {
+                            const data = await response.json();
+                            const parsedContents = JSON.parse(data.contents);
+                            translation = parsedContents.response.translated_text;
+                            break;
+                        } else {
+                            console.error(`Error at ${endpoint}: ${response.status} - ${response.statusText}`);
+                        }
+                    } catch (error) {
+                        console.error(`Request exception at ${endpoint}:`, error);
+                    }
+                }
+
+                if (translation !== null) {
+                    document.getElementById('result').textContent = translation;
+                } else {
+                    document.getElementById('result').textContent = 'All endpoints failed.';
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                document.getElementById('result').textContent = 'Error occurred while fetching the endpoints.';
+            }
+        }
+    </script>
+</body>
+</html>

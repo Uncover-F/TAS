@@ -13,6 +13,8 @@
 # limitations under the License.
 
 # Example usage in a Python script
+# https://github.com/Uncover-F/TAS
+
 from tastranslation.translate import translate
 
 result = translate('Tell me a joke about Cloudflare', source_lang='en', target_lang='fr')
