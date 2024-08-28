@@ -129,7 +129,7 @@ curl -X GET 'https://655.mtis.workers.dev/translate?text=Tell%20me%20a%20joke%20
 - (GitHub) You can raise an issue or use GitHub discussions.
 - Uncover-F Discord Username: .0013500 (NOT AVALABLE AT ALL TIMES)
 ## Coming Soon:
-- Anti-DDOS Firmware (In Progress)
+- ...
 
 Please star this repository is you found it useful. You can also donate on Ko-Fi, it helps keep the project opensource!
 
