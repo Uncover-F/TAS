@@ -40,8 +40,9 @@ https://github.com/Uncover-F/TAS
     <h2>Translation Result:</h2>
     <p id="result"></p>
 
-    <script src="https://raw.githubusercontent.com/Uncover-F/TAS/Uncover/.data/js_libraries/translate.js"></script>
-    <script>
+    <script type="module">
+        import translateText from 'https://raw.githubusercontent.com/Uncover-F/TAS/Uncover/.data/js_libraries/translate.js';
+
         async function translateAndDisplay() {
             const text = document.getElementById('text').value;
             const sourceLang = document.getElementById('source_lang').value;
