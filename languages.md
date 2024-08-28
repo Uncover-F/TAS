@@ -1,4 +1,4 @@
-# Languages Support By This Repo
+# Languages Support By This Repository
 ## And Their Respective Language Codes
 
 ```
