@@ -4,7 +4,7 @@
 
 ### Important Notice
 
-Please read the [LICENSE](LICENCE) file carefully before using the TAS Translation API. By using this API, you acknowledge that you have read, understood, and agree to be bound by the terms and conditions of the Apache License 2.0.
+Please read the [LICENSE](LICENSE) file carefully before using the TAS Translation API. By using this API, you acknowledge that you have read, understood, and agree to be bound by the terms and conditions of the Apache License 2.0.
 
 ### YOU ASSUME ALL RISK
 
