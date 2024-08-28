@@ -12,7 +12,11 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-// DEPRICATED
+// DEPRICATED - This code is no longer maintained and is not recommended for use.
+// This code is provided as an example of how to interact with a Cloudflare Worker API.
+// It is not intended to be used in production environments.
+
+#include <sys/socket.h>
 #include <iostream>
 #include <string>
 #include <sstream>
