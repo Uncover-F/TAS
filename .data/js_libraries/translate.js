@@ -1,5 +1,6 @@
 // Copyright 2024 Uncover-F
 
+// Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at
 
@@ -15,6 +16,7 @@
 // https://github.com/Uncover-F/TAS
 
 async function translateText(text, sourceLang, targetLang) {
+    const endpointsUrl = 'https://api.allorigins.win/get?url=' + encodeURIComponent('https://raw.githubusercontent.com/Uncover-F/TAS/Uncover/.data/endpoints.json');
 
     try {
         const endpointsResponse = await fetch(endpointsUrl);
@@ -45,5 +47,3 @@ async function translateText(text, sourceLang, targetLang) {
         throw error;
     }
 }
-
-export default translateText;
