@@ -12,8 +12,10 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-// JS Library for translating text using the TAS API
+// JS Library for translating text using the TAS Translation API
 // https://github.com/Uncover-F/TAS
+
+// v1.0 Open Public
 
 async function translateText(text, sourceLang, targetLang) {
     const endpointsUrl = 'https://api.allorigins.win/get?url=' + encodeURIComponent('https://raw.githubusercontent.com/Uncover-F/TAS/Uncover/.data/endpoints.json');
