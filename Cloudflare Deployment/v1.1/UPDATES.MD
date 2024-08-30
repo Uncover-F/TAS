@@ -2,7 +2,7 @@
 
 #### Update Version: v1.1
 #### Author: Uncover-F
-#### Type: Production Ready - Implemented
+#### Type: Production Ready - Outdated
 
 ## New Features:
 - Rate Limits  (Stricter due to massive demand)

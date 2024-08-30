@@ -2,7 +2,7 @@
 
 #### Update Version: v1.2
 #### Author: Uncover-F
-#### Type: Production Ready - Unimplemented (Ready to inplement)
+#### Type: Production Ready - Implemented
 
 ## New Features:
 - Bug Fix (Worker threw exception - No body text -  fix = moved 100 character limiter after parameter check.)
