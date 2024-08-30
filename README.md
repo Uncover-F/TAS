@@ -113,6 +113,7 @@ curl -X GET 'https://655.mtis.workers.dev/translate?text=Tell%20me%20a%20joke%20
 - 403 Access Denied to API.
 - 429 Rate Limit Reached.
 - 500 Internal server error. 
+- Worker Threw Exception - make sure you provide input text, this is an issue we are currrently trying to fix.
 
 # Contribution:
 #### Note: To contribute/collaborate you will need to contact one of the following or create a pull request adressing a issue and it's solution.
