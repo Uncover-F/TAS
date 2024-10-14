@@ -128,7 +128,7 @@ curl -X GET 'https://655.mtis.workers.dev/translate?text=Tell%20me%20a%20joke%20
 - Uncover-F Discord Username: .0013500 (NOT ALWAYS AVAILABLE)
 
 ## Coming Soon:
-- ...
+- TAS Wiki
 
 If you found this repository useful, please star it! You can also support us on Ko-Fi, helping to keep the project open source.
 
