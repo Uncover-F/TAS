@@ -4,7 +4,7 @@
 
 ### Important Notice
 
-Please read the [LICENSE](LICENSE) file carefully before using the TAS Translation API. By using this API, you acknowledge that you have read, understood, and agree to be bound by the terms and conditions of the Apache License 2.0.
+Before using the TAS Translation API, please review the [LICENSE](LICENSE) file thoroughly. By utilizing this API, you confirm that you have read, understood, and agree to adhere to the terms and conditions of the Apache License 2.0.
 
 ### YOU ASSUME ALL RISK
 
@@ -43,103 +43,102 @@ Please read the [LICENSE](LICENSE) file carefully before using the TAS Translati
 ---
 
 
-This AI-based translation is free (with limited accuracy, reliability and privacy), no signup required. Our API is available in many different languages and uses `@cf/meta/m2m100-1.2b` for translation. Programming languages we support: C++, Python, JavaScript, ShellScript, Bash/Bat or literally anything that supports API requests/responses. 
+This AI-based translation service is free (with limited accuracy, reliability, and privacy), requiring no sign-up. Our API supports various languages and utilizes `@cf/meta/m2m100-1.2b` for translation. We support programming languages such as C++, Python, JavaScript, ShellScript, Bash/Bat, or any language capable of making API requests/responses.
 
-[<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://app.getpostman.com/run-collection/30169488-3bddcffe-555a-410f-be54-f7d8885da6aa?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D30169488-3bddcffe-555a-410f-be54-f7d8885da6aa%26entityType%3Dcollection%26workspaceId%3Dec241a5e-dcf6-43f6-9283-579f930ba4f2) 
+[<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://app.getpostman.com/run-collection/30169488-3bddcffe-555a-410f-be54-f7d8885da6aa?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D30169488-3bddcffe-555a-410f-be54-f7d8885da6aa%26entityType%3Dcollection%26workspaceId%3Dec241a5e-dcf6-43f6-9283-579f930ba4f2)
 
 ## Limitations:
-- Rate Limit (4 Requests per second) = 20 Second Timeout
-- 100 Character Input
-- Hard Rate Limit (20 Requests per second) = Auto Ban
-- No uptime guaranties 
+- Rate Limit: 4 Requests per second (20 Second Timeout)
+- Maximum Input: 100 Characters
+- Hard Rate Limit: 20 Requests per second (Auto Ban)
+- No uptime guarantees 
 
 ## Features:
-- Free (with limited accuracy, reliability and privacy)
-- No Sign Up
+- Free (with limited accuracy, reliability, and privacy)
+- No Sign-Up Required
 - Open Source
-- Active development
+- Actively Developed
 
-## Anti-DDOS Firmware
-We are against DDOS attacks or health checks as they block others from using the API. We block IPs using algorithms. If you have been blocked and you think it's a mistake, you can always contact uncoverclimatix@duck.com or fill in the form linked below to get pardoned. We use rate limiting for ensuring everyone can use our services. With that aside, we use caching to cache many requests to keep a stable log of requests to prevent as much AI usage as possible. Despite this, DDOS attacks can still happen and our services may be temporarily down, but we also have a backup endpoint to support DDOS recovery. If things get out of hand, we will manually and permanently ban DDOSers. Permanent bans can only happen with proof and with human moderators. Autoscan cannot give out permenent bans. Attempting to bypass these bans can result in being banned again or in extreme cases banning the reigon or useragent. (ONLY IN EXTREME CASES WHEN THE API IS TAKEN DOWN FOR MONTHS)
-##### PERMENENT BANS WILL NOT BE PARDONED UNDER ANY CONDITION.
+## Anti-DDOS Policy
+We oppose DDoS attacks and health checks as they hinder access for other users. We employ algorithms to block abusive IPs. If you believe your IP has been mistakenly blocked, please reach out to uncoverclimatix@duck.com or fill out the form linked below for reconsideration. Rate limiting ensures equitable access for all users. While we use caching to stabilize request logs, DDoS attacks may still lead to temporary service disruptions. In such cases, we have a backup endpoint for recovery. Persistent offenders may face permanent bans, which require evidence and review by human moderators. Automated systems cannot issue permanent bans, and attempts to evade bans may lead to further restrictions, including regional or user-agent bans in extreme circumstances. **Permanent bans will not be reversed under any condition.**
 
-https://forms.office.com/r/WSkSsydcvm
+[Request Reconsideration](https://forms.office.com/r/WSkSsydcvm)
 
-## To check uptime, please check here:
-https://stats.uptimerobot.com/VCs8wjm8j5
+## To check uptime, please visit:
+[Uptime Status](https://stats.uptimerobot.com/VCs8wjm8j5)
 
-#### To prevent the API from going down, please refrain from using your own uptime check system.
+#### To prevent service interruptions, please refrain from using personal uptime monitoring systems.
 
 # Usage:
 
-For a list of supported languages please see [languages.md](languages.md)<br>
-##### Emergency Endpoint: ```https://emergency-tas-backup1.uncoverclimatix.workers.dev/``` (Usage is the same except libraries cannot currently be used). This is the emergency endpoint that has a 7.5 second delay and a 80 character input limit. This is the backup url for faults in the future. DO NOT USE THIS IF THE ORIGINAL ENDPOINT IS UP AND RUNNING.
+For a list of supported languages, please refer to [languages.md](languages.md).  
+**Emergency Endpoint:** ```https://emergency-tas-backup1.uncoverclimatix.workers.dev/``` (Functionality is the same, but libraries are not currently supported). This backup URL has a 7.5-second delay and a character input limit of 80. **Only use this if the primary endpoint is down.**
+
 ## Library Usage:
 ### PIP Python Usage
-#### Note: The TAS package for PIP is ready for full use.
+#### Note: The TAS package for PIP is fully operational.
 
-PIP Package installation: ```pip install tastranslate``` <br>
+PIP Package installation: ```pip install tastranslate```  
 Usage: [Usage/Python/PIPUsage.py](Usage/Python/PIPUsage.py) 
+
 ### NPM NodeJS Usage
-#### Note: The TAS package for NPM is in Public Beta and may not be stable.
+#### Note: The TAS package for NPM is in Public Beta and may not be fully stable.
 
-NPM Package installation: ```npm install tastranslate``` <br>
-Usage: [Usage/JavaScript/NPMUsage.mjs](Usage/JavaScript/NPMUsage.mjs) (.mjs extention required)
-
+NPM Package installation: ```npm install tastranslate```  
+Usage: [Usage/JavaScript/NPMUsage.mjs](Usage/JavaScript/NPMUsage.mjs) (.mjs extension required)
 
 ## General Usage:
 ### Python Usage
+For Python usage details, please see [Usage/Python/PyUsage.py](Usage/Python/PyUsage.py)
 
-For Python usage please see [Usage/Python/PyUsage.py](Usage/Python/PyUsage.py)
+### JavaScript Usage
+For JavaScript usage details, please see [Usage/JavaScript/JSUsage.js](Usage/JavaScript/JSUsage.js)
 
-
-### Javascript Usage
-
-For Javascript usage please see [Usage/JavaScript/JSUsage.js](Usage/JavaScript/JSUsage.js)
-
-###  HTML/WEB Usage
-
-For HTML or Web usage due to the CORS issue you may need to use a CORS Proxy. For full usage with proxy please see [Usage/HTMLUsage.html](Usage/HTMLUsage.html)
+### HTML/WEB Usage
+Due to CORS issues, you may need to use a CORS Proxy. For complete usage with a proxy, please see [Usage/HTMLUsage.html](Usage/HTMLUsage.html).  
 #### Example Proxied Request Usage: ```https://api.allorigins.win/get?url=https%3A%2F%2F655.mtis.workers.dev%2Ftranslate%3Ftext%3DTell%2520me%2520a%2520joke%2520about%2520Cloudflare%26source_lang%3Den%26target_lang%3Dfr```
 
-### CURL / General API requests
-To use other languages like C or C++ please see:
+### CURL / General API Requests
+To use other languages like C or C++, please refer to:
 ```
 curl -X GET 'https://655.mtis.workers.dev/translate?text=Tell%20me%20a%20joke%20about%20Cloudflare&source_lang=en&target_lang=fr'
 ```
+
 ## Error Codes:
-- 200 Successful response.
-- 400 Incorrect or missing parameters. / Resource not found.
-- 403 Access Denied to API.
-- 429 Rate Limit Reached.
-- 500 Internal server error. 
-- Worker Threw Exception -  Please tell us if you get this issue, you have just discovered a bug!
+- **200**: Successful response.
+- **400**: Incorrect or missing parameters / Resource not found.
+- **403**: Access Denied to API.
+- **429**: Rate Limit Reached.
+- **500**: Internal server error. 
+- **Worker Threw Exception**: Please notify us if you encounter this issue; you've discovered a bug!
 
 # Contribution:
-#### Note: To contribute/collaborate you will need to contact one of the following or create a pull request adressing a issue and it's solution.
+#### Note: To contribute or collaborate, please contact one of the following or create a pull request addressing an issue and its solution.
 ### Contact:
-- (Forms) https://forms.office.com/r/EmXBrXp05Y
-- (GitHub) You can raise an issue or use GitHub discussions.
+- (Forms) [Contribution Form](https://forms.office.com/r/EmXBrXp05Y)
+- (GitHub) Raise an issue or participate in GitHub discussions.
 - (Email) uncoverclimatix@duck.com
-- (Discord) .0013500 - NOT AVALABLE AT ALL TIMES
+- (Discord) .0013500 - NOT ALWAYS AVAILABLE
 
-#### Please note that we may not be readily available on discord and it may take a few weeks for us to see it. 
+#### Please note that responses on Discord may take several weeks.
 
 # Other:
 ## Contact & Support:
-- (GitHub) You can raise an issue or use GitHub discussions.
-- Uncover-F Discord Username: .0013500 (NOT AVALABLE AT ALL TIMES)
+- (GitHub) Raise an issue or engage in GitHub discussions.
+- Uncover-F Discord Username: .0013500 (NOT ALWAYS AVAILABLE)
+
 ## Coming Soon:
 - ...
 
-Please star this repository is you found it useful. You can also donate on Ko-Fi, it helps keep the project opensource!
+If you found this repository useful, please star it! You can also support us on Ko-Fi, helping to keep the project open source.
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A0A411CJYS)
-## Star History
 
+## Star History
 [![Star History Chart](https://api.star-history.com/svg?repos=Uncover-F/TAS&type=Date)](https://star-history.com/#Uncover-F/TAS&Date)
+
 ## Goal:
-If this repository gets more than 100 stars, we MAY attempt to make 1 of the following API firmwares (free with limited accuracy, reliability and privacy):
+If this repository receives more than 100 stars, we will consider developing one of the following API firmwares (free with limited accuracy, reliability and privacy):
 - Speech to Text API Firmware/Software ```@cf/openai/whisper```
 - Image Classification API Firmware/Software ```@cf/microsoft/resnet-50```
 - Text Classification API Firmware/Software ```@cf/huggingface/distilbert-sst-2-int8```
