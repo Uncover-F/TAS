@@ -112,6 +112,9 @@ curl -X GET 'https://655.mtis.workers.dev/translate?text=Tell%20me%20a%20joke%20
 - **500**: Internal server error. 
 - **Worker Threw Exception**: Please notify us if you encounter this issue; you've discovered a bug!
 
+### Projects that use the TAS API:
+* Resty - A smart online resteraunt menu avalable in multiple languages. Demonstration: https://app.resty.gr/
+
 # Contribution:
 #### Note: To contribute or collaborate, please contact one of the following or create a pull request addressing an issue and its solution.
 ### Contact:
