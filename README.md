@@ -1,5 +1,7 @@
 # TAS Translation API
 
+![Alt](https://repobeats.axiom.co/api/embed/68e696b1dd773a5184e1e7e56ddf8f0c69ecbdc2.svg "Repobeats analytics image")
+
 ## IMPORTANT: LICENSE AGREEMENT - PLEASE READ!
 
 ### Important Notice
