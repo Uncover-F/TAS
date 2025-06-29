@@ -59,7 +59,6 @@ This AI-based translation service is free (with limited accuracy, reliability, a
 - Free (with limited accuracy, reliability, and privacy)
 - No Sign-Up Required
 - Open Source
-- Actively Developed
 
 ## Anti-DDOS Policy
 We oppose DDoS attacks and health checks as they hinder access for other users. We employ algorithms to block abusive IPs. If you believe your IP has been mistakenly blocked, please reach out to uncoverclimatix@duck.com or fill out the form linked below for reconsideration. Rate limiting ensures equitable access for all users. While we use caching to stabilize request logs, DDoS attacks may still lead to temporary service disruptions. In such cases, we have a backup endpoint for recovery. Persistent offenders may face permanent bans, which require evidence and review by human moderators. Automated systems cannot issue permanent bans, and attempts to evade bans may lead to further restrictions, including regional or user-agent bans in extreme circumstances. **Permanent bans will not be reversed under any condition.**
