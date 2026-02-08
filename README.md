@@ -2,7 +2,7 @@
 
 # ⚠️IMPORTANT⚠️ !!![PLEASE READ]!!!:
 
-Please USE https://github.com/Uncover-F/GravityAPI now.
+Please USE [Ephermis FOG](https://github.com/Ephermis/docs/wiki/Ephermis-‐-Fog-😶%E2%80%8D🌫%EF%B8%8F) now.
 
 The TAS translation API will be deleted soon due to operational costs. This repository will remain active, but we will gradually start to reclaim resources, such as uptime pages, etc. Sorry for any inconvenience caused.
 
