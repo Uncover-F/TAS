@@ -2,8 +2,6 @@
 
 # ⚠️IMPORTANT⚠️ !!![PLEASE READ]!!!:
 
-Please USE [Ephermis FOG](https://github.com/Ephermis/docs/wiki/Ephermis-‐-Fog-😶%E2%80%8D🌫%EF%B8%8F) now.
-
 The TAS translation API will be deleted soon due to operational costs. This repository will remain active, but we will gradually start to reclaim resources, such as uptime pages, etc. Sorry for any inconvenience caused.
 
 ![Alt](https://repobeats.axiom.co/api/embed/68e696b1dd773a5184e1e7e56ddf8f0c69ecbdc2.svg "Repobeats analytics image")
